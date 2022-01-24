@@ -1,0 +1,21 @@
+<hello name="{{ name }}"></hello>
+<hr />
+
+<table border="1">
+  <td *ngFor="let column of title">
+    {{ column }}
+  </td>
+  <td *ngFor="let column of title">
+    {{ column }}
+  </td>
+
+  <tr *ngFor="let row of arrayMonts1; index as i">
+    <td>{{ row }}</td>
+    <input type="text" />
+    <td>{{ arrayMonts2[i] }}</td>
+    <input type="text" />
+    <!-- <td *ngFor="let column of arrayMonts2; index as j">
+        {{column[j][i]}}
+      </td> -->
+  </tr>
+</table>
